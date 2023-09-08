@@ -1,6 +1,6 @@
 {
   "name": "generator-pug11ty",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Static site boilerplate using 11ty and pug html",
   "homepage": "",
   "author": {
