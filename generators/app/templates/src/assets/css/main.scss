@@ -1,0 +1,29 @@
+html {
+  font-family: sans-serif;
+  background: #cbe3f5;
+  max-height: 100vh !important;
+}
+body {
+  max-height: 100vh !important;
+  color: blue;
+}
+html,body{
+  margin:0;
+  }
+
+main {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.this-is-red {
+  color: red;
+  font-size: large;
+}
+.this-is-blue {
+  color: blue;
+  font-size: large;
+}

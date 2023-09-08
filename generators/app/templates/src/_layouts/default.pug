@@ -1,0 +1,18 @@
+include ../_components/navbar/index
+include ../_components/footer/index
+
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title !{site.name}
+    link(rel="stylesheet", href="/assets/main.css")
+    //- link(rel="stylesheet", href="/assets/tailwind.css") uncomment if you installed tailwind
+    script(src="/assets/main.js") 
+    //- script(src="/assets/vendor.js") uncomment if you installed tailwind
+		
+  body 
+    +navbar()
+    main 
+      block content
+    +footer()
