@@ -1,6 +1,6 @@
 # generator-pug11ty 
 <!-- [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url] -->
-> A static site generator usingi 11ty and tailwindcss
+> A static site boilerplate generator. 11ty, pug html
 
 ## Installation
 
