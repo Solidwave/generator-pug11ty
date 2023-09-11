@@ -17,6 +17,50 @@ Then generate your new project:
 yo pug11ty
 ```
 
+## Getting started
+
+cd to the generated project folder and run:
+
+`npm run dev.all`
+
+site will be available on localhost:8080
+## Folder structure
+
+### _components
+Here you should put your pug mixins
+
+### _data
+Here you should put your static data eg site informations. JSON and JS format are supported
+
+
+```json
+{
+  "title": "Your site"
+}
+```
+
+```js
+module.exports = {
+  title: "Your site"
+}
+```
+
+### _layouts
+
+Here you should put your layouts
+
+### assets
+
+JS and css
+
+### images
+
+Here you should put your images
+
+### pages
+
+This is were you put the pages of your site. The site will mirror the structure of this directory.
+
 ## Getting To Know Yeoman
 
  * Yeoman has a heart of gold.
